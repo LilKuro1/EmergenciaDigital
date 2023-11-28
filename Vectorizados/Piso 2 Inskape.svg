@@ -866,9 +866,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      showguides="false"
-     inkscape:zoom="0.3535534"
-     inkscape:cx="451.13411"
-     inkscape:cy="289.91377"
+     inkscape:zoom="0.50000001"
+     inkscape:cx="308.99999"
+     inkscape:cy="280.99999"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -879,7 +879,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Vectores"
-     transform="matrix(1.2696657,0,0,1.5337909,-106.7599,-21.157221)">
+     transform="matrix(1.3780677,0,0,1.7671451,-168.67578,-54.087747)">
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-opacity:1"
        d="m 282.88308,272.26776 0.0156,4.375 h 1.5 l 5e-5,-4.35937 z"
