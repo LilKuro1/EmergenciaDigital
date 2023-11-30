@@ -3,15 +3,7 @@ img{
     width: 100%;
 }
 
-.header{
-    display: flex;
-}
-
-.logo{
-    justify-self: start;
-    max-width: 50%;
-}
-
-.emergencia {
-    justify-content: end;
+.dea, .bto, .elec, .ex1{
+    height: 20px;
+    width: 20px; 
 }
