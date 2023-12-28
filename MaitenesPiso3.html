@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     
 </head>
-<body>
+<>
     <div class="container text-center">
         <div class="row">
             
@@ -32,49 +32,139 @@
                 </form>
             </nav>
            
-            <div style="background: #eaeaea;">
-                <img class="img-fluid" src="Planos/Piso 3 Maitenes.svg" alt="" style="margin: auto;">
+            <div class="svg-container">
+                <img id="floorPlan" class="img-fluid" src="Planos/Piso 3 Maitenes.svg" alt="" style="margin: auto; z-index: 1;">
+                <!--OVERLAY-->
+                <img id="overlaySvg" class="overlay-svg" src="" alt="">
             </div>
             <div class="col" style="background-color: aqua;">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox1" value="option1" onchange="onClick('PISO 4 Todo.svg')">
                     <label class="form-check-label" for="inlineCheckbox1">Todos</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox2" value="option2" onchange="onClick('PISO 4 Todo.svg')">
                     <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Red humeda.svg" alt=""></label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox3" value="option3">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox3" value="option3" onchange="onClick('PISO 4 Todo.svg')">
                     <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Electrico.svg" alt=""></label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox4" value="option4">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox4" value="option4" onchange="onClick('PISO 4 Todo.svg')">
                     <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Extintor1.svg" alt=""></label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox5" value="option5">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox5" value="option5" onchange="onClick('PISO 4 Todo.svg')">
                     <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Extintor CO2.svg" alt=""></label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox6" value="option6">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox6" value="option6" onchange="onClick('PISO 4 Todo.svg')">
                     <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Gas natural o licuado.svg" alt=""></label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox7" value="option7">
-                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Kit anti derrames version bonita.svg" alt=""></label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox8" value="option8">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox8" value="option8" onchange="onClick('PISO 4 Todo.svg')">
                     <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/LavaOjo.svg" alt=""></label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox9" value="option9">
-                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Bodega Sustancias Peligrosas.svg" alt=""></label>
                 </div>
             </div>
         </div> <!--Row-->
     </div> <!--Container-->
-</body>
+
+    <script>
+        function onUnClick(){
+            let floorPlan = document.getElementById("floorPlan");
+            let overlaySvg = document.getElementById("overlaySvg");
+
+            overlaySvg.style.display = 'none';
+            overlaySvg.src = "";
+            floorPlan.src = "Planos/Piso 4 Maitenes.svg";
+        }
+
+
+        function onClick(svgFileName,datounic) {
+            let floorPlan = document.getElementById("floorPlan");
+            let overlaySvg = document.getElementById("overlaySvg");
+
+            
+            if (svgFileName === 'PISO 4 Todo.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    // Si la casilla 'PISO 4 Todo.svg' ya estaba marcada, ejecuta la función onUnClick
+                    onUnClick();
+                } else {
+                    // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                }
+            }
+
+            if (svgFileName === 'PISO 4 RedHumeda.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    // Si la casilla 'PISO 4 Todo.svg' ya estaba marcada, ejecuta la función onUnClick
+                    onUnClick();
+                } else {
+                    // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                }
+            }
+
+            if (svgFileName === 'PISO 4 ELECTRICIDAD.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    // Si la casilla 'PISO 4 Todo.svg' ya estaba marcada, ejecuta la función onUnClick
+                    onUnClick();
+                } else {
+                    // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                }
+            }
+
+            if (svgFileName === 'PISO 4 EXTINTOR PQS.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    // Si la casilla 'PISO 4 Todo.svg' ya estaba marcada, ejecuta la función onUnClick
+                    onUnClick();
+                } else {
+                    // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                }
+            }
+
+            if (svgFileName === 'PISO 4 Extintor CO2.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    // Si la casilla 'PISO 4 Todo.svg' ya estaba marcada, ejecuta la función onUnClick
+                    onUnClick();
+                } else {
+                    // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                }
+            }
+
+            if (svgFileName === 'PISO 4 GasInflamable.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    // Si la casilla 'PISO 4 Todo.svg' ya estaba marcada, ejecuta la función onUnClick
+                    onUnClick();
+                } else {
+                    // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                }
+            }
+
+            if (svgFileName === 'PISO 4 Lavado Ojo.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    // Si la casilla 'PISO 4 Todo.svg' ya estaba marcada, ejecuta la función onUnClick
+                    onUnClick();
+                } else {
+                    // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                }
+            }
+            
+        }
+               
+    </script>
 </body>
 </html>
