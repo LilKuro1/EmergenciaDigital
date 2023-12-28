@@ -7,7 +7,7 @@
    width="1056"
    height="816"
    viewBox="0 0 1056 816"
-   sodipodi:docname="PISO 4 INKSCAPE.svg"
+   sodipodi:docname="Piso 4 Maitenes.svg"
    inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -779,11 +779,11 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="415.07168"
-     inkscape:cy="552.2504"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:zoom="1"
+     inkscape:cx="466"
+     inkscape:cy="450.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -2305,7 +2305,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Electricidad"
-     style="display:inline">
+     style="display:none">
     <g
        clip-path="url(#clip0_18_4062)"
        id="g3-3"
@@ -2354,7 +2354,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="LavadoOjo"
-     style="display:inline">
+     style="display:none">
     <path
        d="m 555.36218,411.89949 h -20 v 20 h 20 z"
        fill="#008855"
@@ -2435,7 +2435,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Extintor"
-     style="display:inline">
+     style="display:none">
     <g
        inkscape:groupmode="layer"
        id="layer1-4"
@@ -2516,7 +2516,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="RedHumeda"
-     style="display:inline">
+     style="display:none">
     <g
        inkscape:label="Capa 1"
        inkscape:groupmode="layer"
@@ -2660,7 +2660,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Gas Inflamable"
-     style="display:inline">
+     style="display:none">
     <g
        inkscape:groupmode="layer"
        id="layer3-4"
@@ -2742,7 +2742,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="Extintor 2"
-     style="display:inline">
+     style="display:none">
     <g
        inkscape:label="Capa 1"
        inkscape:groupmode="layer"
