@@ -12,10 +12,11 @@
 <body>
     <div class="container text-center">
         <div class="row">
-            <div class="col-4" style="background-color: blue;">
+            
+            <div class="col-4" style="background-color: #eaeaea;">
                 <img src="img/logo.png" alt="logo">
             </div>
-            <div class="col-8" style="background-color: aqua;">
+            <div class="col-8" style="background-color: #eaeaea;">
                 <h1 class="text-end">Emergencia Digital</h1>
             </div>
             
@@ -37,7 +38,7 @@
             </div>
             <div class="col" style="background-color: aqua;">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox1" value="option1" onchange="onClick('PISO 4 Todo.svg')">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox1" value="option1" onchange="onClick('Piso 1 todo.svg')">
                     <label class="form-check-label" for="inlineCheckbox1">Todos</label>
                 </div>
                 <div class="form-check form-check-inline">
@@ -75,7 +76,7 @@
 
             overlaySvg.style.display = 'none';
             overlaySvg.src = "";
-            floorPlan.src = "Planos/Piso 4 Maitenes.svg";
+            floorPlan.src = "Planos/Piso 1 Maitenes.svg";
         }
 
 
@@ -84,36 +85,36 @@
             let overlaySvg = document.getElementById("overlaySvg");
 
             
-            if (svgFileName === 'PISO 4 Todo.svg') {
+            if (svgFileName === 'Piso 1 todo.svg') {
                 if (overlaySvg.style.display === 'block') {
                     // Si la casilla 'PISO 4 Todo.svg' ya estaba marcada, ejecuta la función onUnClick
                     onUnClick();
                 } else {
                     // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
                     overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                    overlaySvg.src = "LosMaitenes/Piso 1/" + svgFileName;
                 }
             }
 
-            if (svgFileName === 'PISO 4 RedHumeda.svg') {
+            if (svgFileName === 'Piso 1 riesgo biologico.svg') {
                 if (overlaySvg.style.display === 'block') {
                     // Si la casilla 'PISO 4 Todo.svg' ya estaba marcada, ejecuta la función onUnClick
                     onUnClick();
                 } else {
                     // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
                     overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                    overlaySvg.src = "LosMaitenes/Piso 1/" + svgFileName;
                 }
             }
 
-            if (svgFileName === 'PISO 4 ELECTRICIDAD.svg') {
+            if (svgFileName === 'Piso 1 red humeda.svg') {
                 if (overlaySvg.style.display === 'block') {
                     // Si la casilla 'PISO 4 Todo.svg' ya estaba marcada, ejecuta la función onUnClick
                     onUnClick();
                 } else {
                     // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
                     overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                    overlaySvg.src = "LosMaitenes/Piso 1/" + svgFileName;
                 }
             }
 
@@ -124,7 +125,7 @@
                 } else {
                     // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
                     overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                    overlaySvg.src = "LosMaitenes/Piso 1/" + svgFileName;
                 }
             }
 
@@ -135,7 +136,7 @@
                 } else {
                     // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
                     overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                    overlaySvg.src = "LosMaitenes/Piso 1/" + svgFileName;
                 }
             }
 
@@ -146,7 +147,7 @@
                 } else {
                     // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
                     overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                    overlaySvg.src = "LosMaitenes/Piso 1/" + svgFileName;
                 }
             }
 
@@ -157,13 +158,13 @@
                 } else {
                     // Si la casilla 'PISO 4 Todo.svg' está marcada, muestra el overlay
                     overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosMaitenes/Pisos 4/" + svgFileName;
+                    overlaySvg.src = "LosMaitenes/Piso 1/" + svgFileName;
                 }
             }
             
         }
                
     </script>
-    
+
 </body>
 </html>
