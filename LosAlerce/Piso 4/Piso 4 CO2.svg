@@ -7,8 +7,8 @@
    width="2245.1201"
    height="1587.84"
    viewBox="0 0 2245.1201 1587.84"
-   sodipodi:docname="Piso 4.svg"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="Piso 4 CO2.svg"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -399,15 +399,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      showguides="true"
-     inkscape:zoom="0.73122566"
-     inkscape:cx="354.88361"
-     inkscape:cy="505.31596"
+     inkscape:zoom="2.0682185"
+     inkscape:cx="802.86489"
+     inkscape:cy="925.19239"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="991"
+     inkscape:window-x="1911"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer7" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
@@ -424,7 +424,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Vectorizado"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#000000;stroke:#000000;stroke-width:1.12415"
        d="m 1084.8401,1256.2355 2.0487,19.4227 31.4145,-7.2835 -0.3413,-74.3804 45.9267,0.4414 v -18.7606 l -65.0487,0.6622 0.8537,77.9117 z"
@@ -1058,7 +1058,7 @@
          style="stroke-width:0.658516">003</tspan><tspan
          sodipodi:role="line"
          x="2621.7009"
-         y="815.91058"
+         y="815.91064"
          id="tspan181-3"
          style="stroke-width:0.658516">A: 30,8 m<tspan
    style="font-size:8.56068px;baseline-shift:super;stroke-width:0.658516"
@@ -1915,5 +1915,34 @@
    style="font-size:3.46896px;baseline-shift:super;stroke-width:0.266844"
    id="tspan182-6-37">2</tspan></tspan></text>
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Vectorizado 1">
+    <path
+       style="display:inline;fill:#ff0000;stroke:#000000;stroke-width:0.662151;stroke-opacity:1"
+       d="m 796.41808,921.61667 h 24.48382 v 34.18251 h -24.5373 z"
+       id="path1-98-1-6" />
+    <path
+       style="display:inline;fill:#ffffff;stroke-width:0.662151"
+       d="m 807.34837,927.76191 v 3.17034 l -1.421,0.0151 c -0.49111,-0.0151 -0.81714,0.13852 -0.73998,0.73248 l 0.056,18.15882 c 0.12286,0.60759 0.38391,0.98061 0.71464,1.22989 h 5.40648 c 0.47394,-0.0632 0.7977,-0.42831 1.01379,-1.00671 l 0.0367,-18.42102 c 0.0151,-0.41801 -0.20585,-0.59139 -0.54605,-0.65031 l -2.49612,-0.057 -0.0567,-3.15451 z"
+       id="path3-79-9-9"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       style="display:inline;fill:#ffffff;stroke-width:0.662151"
+       d="m 809.34541,928.74585 c 2.09263,-0.104 6.55692,-0.64842 6.817,-0.0154 1.49076,1.34877 1.68393,3.51635 1.70906,3.99254 0.0243,2.3707 -1.19724,3.06059 -2.03924,4.22489 l -3.47672,3.8576 -0.0153,-1.4465 2.77712,-2.91303 c 0.59719,-0.97027 1.20246,-0.63539 1.98178,-3.20195 0.39167,-1.42976 -0.32544,-2.60009 -1.32112,-3.72305 -0.13915,-0.85107 -4.3054,-0.0421 -6.38885,-0.0367 z"
+       id="path4-7-9-0"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       style="display:inline;fill:#ffffff;stroke-width:0.662151"
+       d="m 798.8569,927.46467 -0.0349,3.20712 c 2.67581,-0.0367 5.51154,-0.45531 8.4871,-1.19385 v -0.7078 c -4.25049,-1.08306 -6.34663,-1.19285 -8.44756,-1.30547 z"
+       id="path2-55-3-0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="display:inline;fill:#ff0000;stroke-width:0.662151"
+       d="m 810.84501,934.97081 0.28472,0.01 c 0.5037,-0.0672 0.55262,-0.49856 0.69538,-0.82135 -0.30397,-0.17319 -0.71562,-0.38727 -0.84022,-0.86522 -0.15869,0.31482 -0.0357,0.48168 -0.7945,0.867 0.11162,0.38123 0.0785,0.78263 0.65462,0.80563 z"
+       id="path5-54-7-4"
+       sodipodi:nodetypes="ccccccc" />
   </g>
 </svg>

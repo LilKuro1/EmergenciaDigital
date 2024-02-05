@@ -7,8 +7,8 @@
    width="2245.1201"
    height="1587.84"
    viewBox="0 0 2245.1201 1587.84"
-   sodipodi:docname="Piso 3.svg"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="Piso 3 Electrico.svg"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -988,6 +988,28 @@
        apply_with_weight="true"
        only_selected="false"
        uniform="false" />
+    <clipPath
+       id="clip0_18_4062-9">
+      <rect
+         width="59.836201"
+         height="52.356701"
+         fill="#ffffff"
+         transform="translate(0.835938,0.697266)"
+         id="rect3-8"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       id="clip0_18_4062-9-4">
+      <rect
+         width="59.836201"
+         height="52.356701"
+         fill="#ffffff"
+         transform="translate(0.835938,0.697266)"
+         id="rect3-8-3"
+         x="0"
+         y="0" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="namedview1"
@@ -999,15 +1021,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="762.26111"
-     inkscape:cy="694.37886"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="1433.4822"
+     inkscape:cy="645.76527"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="991"
+     inkscape:window-x="1911"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showguides="false" />
   <g
      inkscape:groupmode="layer"
@@ -1024,7 +1046,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Vectorizado">
+     inkscape:label="Vectorizado"
+     style="display:none">
     <path
        style="fill:#000000;stroke:#000000;stroke-width:1.03495;paint-order:markers stroke fill"
        d="m 1091.7861,1212.2918 -0.9398,-14.2806 13.6684,-2.2112 -0.6834,-65.3223 63.814,0.2764 0.2563,15.4783 -45.5326,-0.2764 0.6834,61.4527 z"
@@ -2059,7 +2082,7 @@
          style="stroke-width:0.719825">021</tspan><tspan
          sodipodi:role="line"
          x="115.7742"
-         y="1127.7207"
+         y="1127.7206"
          id="tspan181-3"
          style="stroke-width:0.719825">A: 9,1 m<tspan
    style="font-size:9.35767px;baseline-shift:super;stroke-width:0.719825"
@@ -2539,12 +2562,12 @@
          style="stroke-width:0.694971">OFICINA</tspan><tspan
          sodipodi:role="line"
          x="1195.79"
-         y="909.52905"
+         y="909.52911"
          id="tspan180-3-6"
          style="stroke-width:0.694971">030</tspan><tspan
          sodipodi:role="line"
          x="1195.79"
-         y="926.9032"
+         y="926.90332"
          id="tspan181-3-86"
          style="stroke-width:0.694971">A: 4,9 m<tspan
    style="font-size:9.03456px;baseline-shift:super;stroke-width:0.694971"
@@ -2596,7 +2619,7 @@
          style="stroke-width:0.639743">028</tspan><tspan
          sodipodi:role="line"
          x="1113.3604"
-         y="797.82007"
+         y="797.82001"
          id="tspan181-3-18"
          style="stroke-width:0.639743">A: 9,4 m<tspan
    style="font-size:8.31661px;baseline-shift:super;stroke-width:0.639743"
@@ -2997,5 +3020,54 @@
        style="fill:none;stroke:#000000;stroke-width:1.01751;stroke-dasharray:none;stroke-opacity:1"
        d="m 104.00288,869.4953 v -3.46911 h 96.87439 v 4.23013 z"
        id="path193" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Vectorizado 1">
+    <g
+       clip-path="url(#clip0_18_4062-9)"
+       id="g3-53"
+       transform="matrix(0.51829683,0,0,0.51829683,1461.0662,940.88807)"
+       style="display:inline">
+      <path
+         d="M 60.4313,50.5219 32.1288,1.49606 C 31.8396,0.997423 31.311,0.698242 30.7426,0.698242 c -0.5685,0 -1.097,0.309158 -1.3862,0.797818 L 1.05382,50.5219 c -0.289208,0.4986 -0.289208,1.1069 0,1.5956 0.28921,0.4986 0.81776,0.7978 1.38621,0.7978 H 59.0451 c 0.5684,0 1.097,-0.3091 1.3862,-0.7978 0.2892,-0.4986 0.2892,-1.107 0,-1.5956 z"
+         fill="#000000"
+         id="path1-59" />
+      <path
+         d="M 56.2839,49.7159 H 5.22363 L 30.7538,5.6875 Z"
+         fill="#f6bd16"
+         id="path2-29" />
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 29.8039,17.5117 -5.0373,17.1471 7.3677,-3.799 -1.5764,11.5407 -1.5062,-2.1999 1.1608,7.2366 4.2242,-6.1014 -2.1393,1.3302 4.4417,-16.3534 -7.9433,4.3746 5.8136,-13.1813 z"
+         fill="#000000"
+         stroke="#000000"
+         stroke-width="0.10454"
+         id="path3-449" />
+    </g>
+    <g
+       clip-path="url(#clip0_18_4062-9-4)"
+       id="g3-53-9"
+       transform="matrix(0.51829683,0,0,0.51829683,1475.2231,609.87033)"
+       style="display:inline">
+      <path
+         d="M 60.4313,50.5219 32.1288,1.49606 C 31.8396,0.997423 31.311,0.698242 30.7426,0.698242 c -0.5685,0 -1.097,0.309158 -1.3862,0.797818 L 1.05382,50.5219 c -0.289208,0.4986 -0.289208,1.1069 0,1.5956 0.28921,0.4986 0.81776,0.7978 1.38621,0.7978 H 59.0451 c 0.5684,0 1.097,-0.3091 1.3862,-0.7978 0.2892,-0.4986 0.2892,-1.107 0,-1.5956 z"
+         fill="#000000"
+         id="path1-59-8" />
+      <path
+         d="M 56.2839,49.7159 H 5.22363 L 30.7538,5.6875 Z"
+         fill="#f6bd16"
+         id="path2-29-7" />
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 29.8039,17.5117 -5.0373,17.1471 7.3677,-3.799 -1.5764,11.5407 -1.5062,-2.1999 1.1608,7.2366 4.2242,-6.1014 -2.1393,1.3302 4.4417,-16.3534 -7.9433,4.3746 5.8136,-13.1813 z"
+         fill="#000000"
+         stroke="#000000"
+         stroke-width="0.10454"
+         id="path3-449-9" />
+    </g>
   </g>
 </svg>
