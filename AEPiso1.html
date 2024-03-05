@@ -28,9 +28,75 @@
                 </form>
             </nav>
 
-            <div style="background: #eaeaea;">
-                <img class="img-fluid" src="AE/Piso 1.svg" alt="" style="margin: auto;">
+            <div class="svg-container">
+                <!-- SVG PRINCILAP MAPA PRINCIPAL-->
+                <img class="img-fluid" src="AE/Piso 1.svg" alt="" style="margin: auto; z-index: 1;">
+                <!--OVERLAY-->
+                <img id="overlaySvg" class="overlay-svg" src="" alt="">
             </div>
+            <div class="col" style="background-color: aqua;">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox1" value="option1" onchange="onClick('Piso 1 Todo.svg')">
+                    <label class="form-check-label" for="inlineCheckbox1">Todos</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox4" value="option4" onchange="onClick('Piso 1 PQS.svg')">
+                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Extintor1.svg" alt=""></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox5" value="option5" onchange="onClick('Piso 1 CO2.svg')">
+                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Extintor CO2.svg" alt=""></label>
+                </div>  
+            </div>
+        </div> <!--Row-->
     </div> <!--Container-->
+    
+<!--COMIENZA FUNCION-->
+    <script>
+        function onUnClick(){
+            let floorPlan = document.getElementById("floorPlan");
+            let overlaySvg = document.getElementById("overlaySvg");
+
+            overlaySvg.style.display = 'none';
+            overlaySvg.src = "";
+            floorPlan.src = "AE/Piso 1.svg";
+        }
+
+
+        function onClick(svgFileName,datounic) {
+            let floorPlan = document.getElementById("floorPlan");
+            let overlaySvg = document.getElementById("overlaySvg");
+
+            
+            if (svgFileName === 'Piso 1 Todo.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    onUnClick();
+                } else {
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "AE/" + svgFileName;
+                }
+            }
+
+            if (svgFileName === 'Piso 1 PQS.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    onUnClick();
+                } else {
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "AE/" + svgFileName;
+                }
+            }
+
+            if (svgFileName === 'Piso 1 CO2.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    onUnClick();
+                } else {
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "AE/" + svgFileName;
+                }
+            }
+        }
+               
+    </script>
+<!--TERMINA FUNCION-->
 </body>
 </html>
